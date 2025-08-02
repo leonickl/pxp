@@ -1,7 +1,7 @@
 {
     "name": "leonickl/pxp",
     "description": "A PHP-Framework",
-    "type": "framework",
+    "type": "project",
     "version": "1.0.0",
     "require": {
         "ext-pdo": "*",
