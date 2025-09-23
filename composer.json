@@ -2,7 +2,6 @@
     "name": "leonickl/pxp",
     "description": "A PHP-Framework",
     "type": "project",
-    "version": "1.0.3",
     "require": {
         "ext-pdo": "*",
         "leonickl/pxp-core": "dev-main"
