@@ -1,6 +1,6 @@
 <?php
 
 use App\Controllers\ExampleController;
-use PXP\Core\Lib\Route;
+use PXP\Router\Route;
 
 Route::get('/')->do(ExampleController::class, 'index');

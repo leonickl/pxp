@@ -2,7 +2,7 @@
 
 namespace App\Controllers;
 
-use PXP\Core\Controllers\Controller;
+use PXP\Http\Controllers\Controller;
 
 class ExampleController extends Controller
 {
