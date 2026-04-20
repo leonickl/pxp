@@ -4,23 +4,61 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6478f8b3b75e6b9750fe48994bb60e7a",
+    "content-hash": "a3dfb153ae40d8a1fdcfa3a96c276b0a",
     "packages": [
         {
-            "name": "leonickl/pxp-core",
-            "version": "v2.2.1",
+            "name": "leonickl/plate",
+            "version": "v1.0.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/leonickl/pxp-core.git",
-                "reference": "3b984313ab0153c36237fdc0a09d4f9984bfabf0"
+                "url": "https://github.com/leonickl/plate.git",
+                "reference": "558454bdf534410e5539629caa221ad3db83d3ad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/leonickl/pxp-core/zipball/3b984313ab0153c36237fdc0a09d4f9984bfabf0",
-                "reference": "3b984313ab0153c36237fdc0a09d4f9984bfabf0",
+                "url": "https://api.github.com/repos/leonickl/plate/zipball/558454bdf534410e5539629caa221ad3db83d3ad",
+                "reference": "558454bdf534410e5539629caa221ad3db83d3ad",
                 "shasum": ""
             },
             "require": {
+                "php": ">=8.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "LeoNickl\\Plate\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Leo Nickl",
+                    "email": "leo@leonickl.de"
+                }
+            ],
+            "description": "A PHP templating engine",
+            "support": {
+                "issues": "https://github.com/leonickl/plate/issues",
+                "source": "https://github.com/leonickl/plate/tree/v1.0.0"
+            },
+            "time": "2026-04-07T14:47:06+00:00"
+        },
+        {
+            "name": "leonickl/pxp-core",
+            "version": "v3.2.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/leonickl/pxp-core.git",
+                "reference": "fe0d37ca2bf2bc5b23db42f13b8faa2a9f4bf155"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/leonickl/pxp-core/zipball/fe0d37ca2bf2bc5b23db42f13b8faa2a9f4bf155",
+                "reference": "fe0d37ca2bf2bc5b23db42f13b8faa2a9f4bf155",
+                "shasum": ""
+            },
+            "require": {
+                "leonickl/plate": "^1.0",
                 "php": "^8.4"
             },
             "require-dev": {
@@ -45,9 +83,9 @@
             "description": "Core functionality for leonickl/pxp",
             "support": {
                 "issues": "https://github.com/leonickl/pxp-core/issues",
-                "source": "https://github.com/leonickl/pxp-core/tree/v2.2.1"
+                "source": "https://github.com/leonickl/pxp-core/tree/v3.2.6"
             },
-            "time": "2026-03-29T12:54:54+00:00"
+            "time": "2026-04-07T16:03:00+00:00"
         }
     ],
     "packages-dev": [
@@ -121,11 +159,11 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "2.1.44",
+            "version": "2.1.50",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/4a88c083c668b2c364a425c9b3171b2d9ea5d218",
-                "reference": "4a88c083c668b2c364a425c9b3171b2d9ea5d218",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/d452086fb4cf648c6b2d8cf3b639351f79e4f3e2",
+                "reference": "d452086fb4cf648c6b2d8cf3b639351f79e4f3e2",
                 "shasum": ""
             },
             "require": {
@@ -170,7 +208,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-03-25T17:34:21+00:00"
+            "time": "2026-04-17T13:10:32+00:00"
         }
     ],
     "aliases": [],
