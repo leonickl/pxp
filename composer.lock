@@ -45,16 +45,16 @@
         },
         {
             "name": "leonickl/pxp-core",
-            "version": "v3.2.8",
+            "version": "v3.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/leonickl/pxp-core.git",
-                "reference": "eb1bd4976d4d23389cf20e0f65a6182726db4763"
+                "reference": "9aa1a0ff8a0ba392be15f06fe24d06b715ff23cb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/leonickl/pxp-core/zipball/eb1bd4976d4d23389cf20e0f65a6182726db4763",
-                "reference": "eb1bd4976d4d23389cf20e0f65a6182726db4763",
+                "url": "https://api.github.com/repos/leonickl/pxp-core/zipball/9aa1a0ff8a0ba392be15f06fe24d06b715ff23cb",
+                "reference": "9aa1a0ff8a0ba392be15f06fe24d06b715ff23cb",
                 "shasum": ""
             },
             "require": {
@@ -84,9 +84,9 @@
             "description": "Core functionality for leonickl/pxp",
             "support": {
                 "issues": "https://github.com/leonickl/pxp-core/issues",
-                "source": "https://github.com/leonickl/pxp-core/tree/v3.2.8"
+                "source": "https://github.com/leonickl/pxp-core/tree/v3.7.1"
             },
-            "time": "2026-04-21T16:24:51+00:00"
+            "time": "2026-05-02T09:52:14+00:00"
         }
     ],
     "packages-dev": [
@@ -160,11 +160,11 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "2.1.50",
+            "version": "2.1.54",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/d452086fb4cf648c6b2d8cf3b639351f79e4f3e2",
-                "reference": "d452086fb4cf648c6b2d8cf3b639351f79e4f3e2",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/8be50c3992107dc837b17da4d140fbbdf9a5c5bd",
+                "reference": "8be50c3992107dc837b17da4d140fbbdf9a5c5bd",
                 "shasum": ""
             },
             "require": {
@@ -209,7 +209,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-04-17T13:10:32+00:00"
+            "time": "2026-04-29T13:31:09+00:00"
         }
     ],
     "aliases": [],
