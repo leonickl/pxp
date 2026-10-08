@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8077485c496ad1e672dae51901bdf328",
+    "content-hash": "250e2018f7b7a500c7d07a0908ed43de",
     "packages": [
         {
             "name": "leonickl/plate",
-            "version": "v1.0.1",
+            "version": "v2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/leonickl/plate.git",
-                "reference": "65371b0eb86d84208eb681be9ffa9a12385039d2"
+                "reference": "0b2530416710d8fc8d0d74eb4178a0efda7638ac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/leonickl/plate/zipball/65371b0eb86d84208eb681be9ffa9a12385039d2",
-                "reference": "65371b0eb86d84208eb681be9ffa9a12385039d2",
+                "url": "https://api.github.com/repos/leonickl/plate/zipball/0b2530416710d8fc8d0d74eb4178a0efda7638ac",
+                "reference": "0b2530416710d8fc8d0d74eb4178a0efda7638ac",
                 "shasum": ""
             },
             "require": {
@@ -39,28 +39,28 @@
             "description": "A PHP templating engine",
             "support": {
                 "issues": "https://github.com/leonickl/plate/issues",
-                "source": "https://github.com/leonickl/plate/tree/v1.0.1"
+                "source": "https://github.com/leonickl/plate/tree/v2.0.1"
             },
-            "time": "2026-04-21T16:24:01+00:00"
+            "time": "2026-09-22T21:34:02+00:00"
         },
         {
             "name": "leonickl/pxp-core",
-            "version": "v4.0.0",
+            "version": "v5.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/leonickl/pxp-core.git",
-                "reference": "4f9a6568ea4dde91285be67dceb3d5b254b9bed6"
+                "reference": "dd22ed580f3ea97e21cf7ef7d0413713b77a34c2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/leonickl/pxp-core/zipball/4f9a6568ea4dde91285be67dceb3d5b254b9bed6",
-                "reference": "4f9a6568ea4dde91285be67dceb3d5b254b9bed6",
+                "url": "https://api.github.com/repos/leonickl/pxp-core/zipball/dd22ed580f3ea97e21cf7ef7d0413713b77a34c2",
+                "reference": "dd22ed580f3ea97e21cf7ef7d0413713b77a34c2",
                 "shasum": ""
             },
             "require": {
                 "ext-pdo": "*",
                 "ext-sqlite3": "*",
-                "leonickl/plate": "^1.0",
+                "leonickl/plate": "^2.0",
                 "php": "^8.4"
             },
             "require-dev": {
@@ -86,24 +86,24 @@
             "description": "Core functionality for leonickl/pxp",
             "support": {
                 "issues": "https://github.com/leonickl/pxp-core/issues",
-                "source": "https://github.com/leonickl/pxp-core/tree/v4.0.0"
+                "source": "https://github.com/leonickl/pxp-core/tree/v5.7.1"
             },
-            "time": "2026-05-07T14:09:39+00:00"
+            "time": "2026-09-24T09:36:49+00:00"
         }
     ],
     "packages-dev": [
         {
             "name": "laravel/pint",
-            "version": "v1.29.1",
+            "version": "v1.32.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/pint.git",
-                "reference": "0770e9b7fafd50d4586881d456d6eb41c9247a80"
+                "reference": "006bd7825eb01daf92959d060b89cd9514fe4253"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/pint/zipball/0770e9b7fafd50d4586881d456d6eb41c9247a80",
-                "reference": "0770e9b7fafd50d4586881d456d6eb41c9247a80",
+                "url": "https://api.github.com/repos/laravel/pint/zipball/006bd7825eb01daf92959d060b89cd9514fe4253",
+                "reference": "006bd7825eb01daf92959d060b89cd9514fe4253",
                 "shasum": ""
             },
             "require": {
@@ -111,17 +111,19 @@
                 "ext-mbstring": "*",
                 "ext-tokenizer": "*",
                 "ext-xml": "*",
-                "php": "^8.2.0"
+                "php": "^8.3.0"
             },
             "require-dev": {
-                "friendsofphp/php-cs-fixer": "^3.95.1",
-                "illuminate/view": "^12.56.0",
-                "larastan/larastan": "^3.9.6",
-                "laravel-zero/framework": "^12.1.0",
-                "mockery/mockery": "^1.6.12",
+                "composer/semver": "^3.4.4",
+                "friendsofphp/php-cs-fixer": "^3.95.25",
+                "illuminate/view": "^13.31.0",
+                "larastan/larastan": "^3.11.0",
+                "laravel-zero/framework": "^13.0.0",
+                "laravel/agent-detector": "^2.0.2",
+                "laravel/prompts": "^0.3.24",
+                "mockery/mockery": "^1.6.15",
                 "nunomaduro/termwind": "^2.4.0",
-                "pestphp/pest": "^3.8.6",
-                "shipfastlabs/agent-detector": "^1.1.3"
+                "pestphp/pest": "^4.7.8"
             },
             "bin": [
                 "builds/pint"
@@ -158,15 +160,15 @@
                 "issues": "https://github.com/laravel/pint/issues",
                 "source": "https://github.com/laravel/pint"
             },
-            "time": "2026-04-20T15:26:14+00:00"
+            "time": "2026-09-10T10:47:55+00:00"
         },
         {
             "name": "phpstan/phpstan",
-            "version": "2.1.55",
+            "version": "2.3.1",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/9eaac3826ed5e9b8427350a43cac825eeca3f566",
-                "reference": "9eaac3826ed5e9b8427350a43cac825eeca3f566",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/6155239b488e95d26d1ebd95c6b4bb294d7f09db",
+                "reference": "6155239b488e95d26d1ebd95c6b4bb294d7f09db",
                 "shasum": ""
             },
             "require": {
@@ -188,6 +190,17 @@
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ondřej Mirtes"
+                },
+                {
+                    "name": "Markus Staab"
+                },
+                {
+                    "name": "Vincent Langlet"
+                }
             ],
             "description": "PHPStan - PHP Static Analysis Tool",
             "keywords": [
@@ -211,7 +224,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-05-18T11:57:34+00:00"
+            "time": "2026-10-08T21:09:11+00:00"
         }
     ],
     "aliases": [],
