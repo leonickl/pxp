@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "250e2018f7b7a500c7d07a0908ed43de",
+    "content-hash": "9e9d399c7ff04aa4029ec3ce79d720f1",
     "packages": [
         {
             "name": "leonickl/plate",
@@ -45,16 +45,16 @@
         },
         {
             "name": "leonickl/pxp-core",
-            "version": "v5.7.1",
+            "version": "v5.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/leonickl/pxp-core.git",
-                "reference": "dd22ed580f3ea97e21cf7ef7d0413713b77a34c2"
+                "reference": "b0cc68ca30b323b7ed0003fca253983dcb25adad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/leonickl/pxp-core/zipball/dd22ed580f3ea97e21cf7ef7d0413713b77a34c2",
-                "reference": "dd22ed580f3ea97e21cf7ef7d0413713b77a34c2",
+                "url": "https://api.github.com/repos/leonickl/pxp-core/zipball/b0cc68ca30b323b7ed0003fca253983dcb25adad",
+                "reference": "b0cc68ca30b323b7ed0003fca253983dcb25adad",
                 "shasum": ""
             },
             "require": {
@@ -86,9 +86,9 @@
             "description": "Core functionality for leonickl/pxp",
             "support": {
                 "issues": "https://github.com/leonickl/pxp-core/issues",
-                "source": "https://github.com/leonickl/pxp-core/tree/v5.7.1"
+                "source": "https://github.com/leonickl/pxp-core/tree/v5.8.0"
             },
-            "time": "2026-09-24T09:36:49+00:00"
+            "time": "2026-10-10T21:42:19+00:00"
         }
     ],
     "packages-dev": [
@@ -164,11 +164,11 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "2.3.1",
+            "version": "2.3.4",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/6155239b488e95d26d1ebd95c6b4bb294d7f09db",
-                "reference": "6155239b488e95d26d1ebd95c6b4bb294d7f09db",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/f20ce6f3c82556cfcfc086b152445a12d1d64fff",
+                "reference": "f20ce6f3c82556cfcfc086b152445a12d1d64fff",
                 "shasum": ""
             },
             "require": {
@@ -224,7 +224,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-10-08T21:09:11+00:00"
+            "time": "2026-10-28T22:38:53+00:00"
         }
     ],
     "aliases": [],
